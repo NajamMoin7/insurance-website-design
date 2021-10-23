@@ -1,0 +1,710 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-header {
+    background-image: linear-gradient(to bottom, rgba(7, 7, 7, 0.493), rgba(0, 0, 0, 0.39)), url(../../Images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    color: rgb(241, 237, 237)!important;
+    font-weight: 700;
+}
+
+.nav-link2 {
+    color: rgb(122, 74, 106)!important;
+    font-weight: 700;
+    margin: auto;
+}
+
+.nav-link:hover {
+    color: rgba(255, 7, 110)!important;
+    border-bottom: 1px solid pink;
+}
+
+.nav-link2:hover {
+    color: rgba(255, 7, 110)!important;
+}
+
+.jumbotron {
+    background: transparent;
+    color: white;
+}
+
+.jumbotron2 {
+    background-image: linear-gradient(to bottom, rgba(228, 186, 228, 0.52), rgba(117, 19, 93, 0.73)), url(../../Images/jumbo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.jumbotron3 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/car1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.jumbotron4 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/jumbo4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.jumbotron5 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/jumbo5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.jumbotron6 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/jumbo6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.jumbotron7 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/jumbo7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.jumbotron8 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/jumbo8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.jumbotron1 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/igicar.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-weight: bolder;
+    height: auto;
+}
+
+.jumbotron9 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/adamcar.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-weight: bolder;
+    height: auto;
+}
+
+.jumbotron10 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/efucar.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-weight: bolder;
+    height: auto;
+}
+
+.jumbotron11 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/jubileecar.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-weight: bolder;
+    height: auto;
+}
+
+.jumbotron12 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/statecar.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-weight: bolder;
+    height: auto;
+}
+
+.jumbotron13 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/ublcar.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-weight: bolder;
+    height: auto;
+}
+
+.jumbotron14 {
+    background-image: url(../../Images/banner-faqs.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+    height: 450px;
+}
+
+.jumbotron15 {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.52), rgba(19, 17, 18, 0.73)), url(../../Images/summary.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 200px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 130px;
+    font-style: bold;
+}
+
+.font {
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    text-align: justify;
+}
+
+.font1 {
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+}
+
+.font2 {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    padding: 15px;
+}
+
+.font3 {
+    font-size: 14px;
+}
+
+.card {
+    height: 200px;
+    transition: .5s;
+}
+
+.cards {
+    height: auto;
+    transition: .5s;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 179, 179);
+}
+
+.card-body {
+    color: black;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.cards:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.card .card-title {
+    position: relative;
+}
+
+.card:hover .card-title {
+    animation: slideUp 0.5s normal;
+}
+
+.card:hover .attachment-full {
+    display: none;
+}
+
+.card .card-text {
+    display: none;
+    position: relative;
+}
+
+.card:hover .card-text {
+    animation: slideUp 0.5s normal;
+    display: block;
+}
+
+.card .attachment-full {
+    position: relative;
+}
+
+@keyframes slideUp {
+    from {
+        top: 30px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+.card1 {
+    border: 0.5px solid rgba(112, 111, 111, 0.5);
+    border-radius: 15px;
+}
+
+.card-image1 {
+    grid-area: image;
+    border-top-left-radius: 15px;
+    background-position: center;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    border-bottom: 1px solid gray;
+}
+
+.card-text1 {
+    /* display: none; */
+    grid-area: text;
+    margin: 25px;
+    transition: ease-in;
+}
+
+.btn2 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(255, 7, 110);
+    color: white;
+    /* margin-top: 180 px; */
+    position: relative;
+}
+
+.btn3 {
+    background-color: rgba(255, 7, 110);
+    color: white !important;
+    position: relative;
+}
+
+
+/* 
+.gap {
+    margin-top: 180px;
+} */
+
+.date {
+    color: rgba(255, 7, 110);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-text1 p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card-text1 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+#a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+
+/* .card1:hover .card-text1 {
+    display: block;
+    animation: fade-in 1s;
+} */
+
+.card-text1:not(:hover) .date.did-fade-in {
+    display: block;
+    animation: fade-out 1s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.card1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.card1 {
+    transition: 0.5s;
+}
+
+.card2 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card3 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 35px;
+    text-align: center;
+}
+
+.header-cards {
+    position: relative;
+    bottom: -100px;
+}
+
+.header-cards2 {
+    position: relative;
+    bottom: -100px;
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.content {
+    height: 70vh;
+}
+
+.footer-20192 {
+    position: relative;
+    color: #fff;
+    padding: 2rem 0;
+    background-color: #141d2a;
+}
+
+.footer-20192 .container {
+    position: relative;
+}
+
+.footer-20192 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.footer-20192 .links li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    display: block;
+}
+
+.footer-20192 .links li a {
+    color: #666873;
+}
+
+.footer-20192 .links li a:hover {
+    color: #fff;
+}
+
+.footer-20192 .social li {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-20192 .social li a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #8186d5;
+    color: #fff;
+}
+
+.footer-20192 .social li a>span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.footer-20192 .footer-logo {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.footer-20192 .copyright {
+    color: #666873;
+}
+
+.footer-20192 .cta {
+    -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+    box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+    padding: 20px;
+    background-color: #8186d5;
+    top: -100px;
+    position: relative;
+}
+
+.footer-20192 .cta h2,
+.footer-20192 .cta h3 {
+    line-height: 1.5;
+}
+
+.footer-20192 .cta h3 {
+    font-size: 20px;
+}
+
+.placeholder {
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 1px solid rgb(184, 181, 181);
+    width: 100%;
+}
+
+.txt {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.ex1 {
+    height: 500px;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 15px;
+}
+
+.checked {
+    color: orange;
+}
+
+.container-fluid {
+    padding: 15px;
+}
+
+.font1 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.span {
+    color: gray;
+    padding: 5px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #920186;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #812763;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    padding: 0px;
+}
+
+#demo {
+    background: linear-gradient(112deg, #fdc8eb 50%, rgb(250, 215, 247) 50%);
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+.i {
+    background-color: rgb(223, 56, 89);
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    .i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+
+#demo1 {
+    background: linear-gradient(90deg, rgba(255, 7, 110), rgba(255, 7, 110));
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+}
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#icon {
+    color: rgba(255, 7, 110);
+    padding: 5px;
+}
+
+.container1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.img {
+    background-image: linear-gradient(to bottom, rgba(46, 29, 46, 0.5), rgba(19, 17, 18, 0.5)), url(../../Images/contactus.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /* color: white; */
+}
